@@ -16,3 +16,12 @@
     background: -webkit-linear-gradient(150deg, #040431 0%, #474bff 100%);
     background: linear-gradient(150deg, #040431 0%, #332452 100%);
 }
+
+/* Overview Section */
+.overview-section {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/svg/Web\ Developer_Isometric.svg);
+    background-position: right top;
+    background-size: 40%;
+}
