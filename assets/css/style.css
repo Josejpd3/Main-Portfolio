@@ -8,3 +8,11 @@
 .navbar-nav {
     font-size: 20px;
 }
+
+/* Main */
+.main-container{
+    color: white;
+    background: #040431;
+    background: -webkit-linear-gradient(150deg, #040431 0%, #474bff 100%);
+    background: linear-gradient(150deg, #040431 0%, #332452 100%);
+}
