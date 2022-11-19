@@ -25,3 +25,9 @@
     background-position: right top;
     background-size: 40%;
 }
+
+.overview-container {
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+}
