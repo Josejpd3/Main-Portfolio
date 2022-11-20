@@ -126,6 +126,10 @@
     text-align: center;
 }
 
+.tech > .orm, .oop, .mvc {
+    padding-top: 40px;
+}
+
 /* Animations */
 
 @keyframes slideInLeft {
