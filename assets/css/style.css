@@ -101,6 +101,10 @@
     
 }
 
+.skills-card h3 {
+    text-align: center;
+}
+
 .tech {
     display: flex;
     flex-direction: row;
