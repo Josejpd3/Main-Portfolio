@@ -121,6 +121,10 @@
     border-radius: 60px;
 }
 
+.tech > *:hover {
+    border: 4px solid #ddd;
+}
+
 .tech > p img {
     width: 45px;
     text-align: center;
