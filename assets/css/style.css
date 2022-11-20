@@ -95,6 +95,24 @@
     border: 1px solid rgba(99,110,111,0.25);
 }
 
+.skills-card {
+    padding: 0px;
+
+    
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tech > * {
+    margin: 30px;
+    padding: 10px;
+    height: 100px;
+    width: 70px;
+}
 
 /* Animations */
 
