@@ -19,7 +19,7 @@
 
 /* Overview Section */
 .overview-section {
-    height: 700px;
+    height: 850px;
     background-repeat: no-repeat;
     background-image: url(/assets/svg/Web\ Developer_Isometric.svg);
     background-position: right top;
@@ -74,9 +74,27 @@
 }
 
 /* About Container */
-.about-container {
-    width: 500px;
+.about-section .section-title {
+    margin-bottom: 140px;
 }
+
+
+.about-container {
+    margin: 0px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-card {
+    padding: 40px;
+    border-radius: 30px;
+    background: rgba(99,110,111,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(99,110,111,0.25);
+}
+
 
 /* Animations */
 
