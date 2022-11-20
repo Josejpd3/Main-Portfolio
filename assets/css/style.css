@@ -112,6 +112,13 @@
     padding: 10px;
     height: 100px;
     width: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+.tech > p img {
+    width: 45px;
+    text-align: center;
 }
 
 /* Animations */
