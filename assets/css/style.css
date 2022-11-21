@@ -76,6 +76,11 @@
 /* About Container */
 .about-section .section-title {
     margin-bottom: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    background: rgba(68, 47, 202, 0.35);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 
