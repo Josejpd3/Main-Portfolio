@@ -164,32 +164,32 @@
 
 @keyframes breath {
     0% {
-        -webkit-box-shadow: 0 0 0 1px #442fca;
-        -moz-box-shadow: 0 0 0 1px #442fca;
-        box-shadow: 0 0 0 1px #442fca;
+        -webkit-box-shadow: 0 0 0 1px var(--breath-color);
+        -moz-box-shadow: 0 0 0 1px var(--breath-color);
+        box-shadow: 0 0 0 1px var(--breath-color);
     }
 
     25% {
-        -webkit-box-shadow: 0 0 0 7px #442fca;
-        -moz-box-shadow: 0 0 0 7px #442fca;
-        box-shadow: 0 0 0 7px #442fca;
+        -webkit-box-shadow: 0 0 0 7px var(--breath-color);
+        -moz-box-shadow: 0 0 0 7px var(--breath-color);
+        box-shadow: 0 0 0 7px var(--breath-color);
     }
 
     50% {
-        -webkit-box-shadow: 0 0 0 7px #442fca;
-        -moz-box-shadow: 0 0 0 7px #442fca;
-        box-shadow: 0 0 0 7px #442fca;
+        -webkit-box-shadow: 0 0 0 7px var(--breath-color);
+        -moz-box-shadow: 0 0 0 7px var(--breath-color);
+        box-shadow: 0 0 0 7px var(--breath-color);
     }
 
     75% {
-        -webkit-box-shadow: 0 0 0 7px #442fca;
-        -moz-box-shadow: 0 0 0 7px #442fca;
-        box-shadow: 0 0 0 7px #442fca;
+        -webkit-box-shadow: 0 0 0 7px var(--breath-color);
+        -moz-box-shadow: 0 0 0 7px var(--breath-color);
+        box-shadow: 0 0 0 7px var(--breath-color);
     }
 
     100% {
-        -webkit-box-shadow: 0 0 0 1px #442fca;
-        -moz-box-shadow: 0 0 0 1px #442fca;
-        box-shadow: 0 0 0 1px #442fca;
+        -webkit-box-shadow: 0 0 0 1px var(--breath-color);
+        -moz-box-shadow: 0 0 0 1px var(--breath-color);
+        box-shadow: 0 0 0 1px var(--breath-color);
     }
 }
