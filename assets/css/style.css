@@ -23,7 +23,7 @@
     background: linear-gradient(150deg, #040431 0%, #332452 100%);
 }
 
-.section-title {
+section:not(.overview-section) > .section-title{
     margin-bottom: 140px;
     margin-top: 100px;
     padding-left: 40px;
