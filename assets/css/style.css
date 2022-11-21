@@ -17,6 +17,16 @@
     background: linear-gradient(150deg, #040431 0%, #332452 100%);
 }
 
+.section-title {
+    margin-bottom: 140px;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    background: rgba(68, 47, 202, 0.35);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Overview Section */
 .overview-section {
     height: 850px;
@@ -74,14 +84,6 @@
 }
 
 /* About Container */
-.about-section .section-title {
-    margin-bottom: 140px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 40px;
-    background: rgba(68, 47, 202, 0.35);
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-}
 
 
 .about-container {
