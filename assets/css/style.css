@@ -83,10 +83,11 @@
     margin: 0px;
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .about-card {
+    min-width: 600px;
     padding: 40px;
     border-radius: 30px;
     background: rgba(99,110,111,0.5);
@@ -97,8 +98,7 @@
 
 .skills-card {
     padding: 0px;
-
-    
+    min-width: 600px;
 }
 
 .skills-card h3 {
