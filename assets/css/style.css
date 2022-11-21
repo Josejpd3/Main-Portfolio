@@ -1,3 +1,9 @@
+:root {
+    --text-light: white;
+    --text-dark: black;
+    --breath-color: #442fca;
+}
+
 /* Navbar */
 
 .navbar-brand {
