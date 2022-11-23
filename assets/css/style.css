@@ -103,7 +103,7 @@ section:not(.overview-section) > .section-title{
 .about-card {
     min-width: 600px;
     max-height: 400px;
-    padding: 40px;
+    padding: 0px;
     border-radius: 30px;
 }
 
