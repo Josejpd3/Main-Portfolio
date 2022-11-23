@@ -153,7 +153,7 @@ section:not(.overview-section) > .section-title{
 
 /* Projects Section */
 
-.projects-container .card p{
+.projects-container .card p, h5{
     color: black;
 }
 
