@@ -157,6 +157,9 @@ section:not(.overview-section) > .section-title{
     color: black;
 }
 
+.projects-container .card img{
+    margin: 10px;
+}
 
 
 
