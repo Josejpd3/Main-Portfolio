@@ -186,6 +186,12 @@ section:not(.overview-section) > .section-title{
     justify-content: flex-start;
 }
 
+.projects-container .card span{
+    margin-top: 20px;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
 
 
 /* Animations */
