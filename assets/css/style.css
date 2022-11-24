@@ -153,6 +153,13 @@ section:not(.overview-section) > .section-title{
 
 /* Projects Section */
 
+.projects-container .card .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
 .projects-container .card p, h5{
     color: black;
 }
