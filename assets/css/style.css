@@ -193,6 +193,13 @@ section:not(.overview-section) > .section-title{
     text-align: center;
 }
 
+.projects-container .card span p{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+
 
 /* Animations */
 
