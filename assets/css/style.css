@@ -265,3 +265,41 @@ section:not(.overview-section) > .section-title{
         box-shadow: 0 0 0 1px var(--breath-color);
     }
 }
+
+@media screen and (max-width: 1220px){
+    .overview-section {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        height: 850px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/imgs/svg/monitor_illustration_2.svg);
+        background-position: center top;
+        background-size: 500px;
+    }
+
+    .overview-container {
+        margin-top: 0px;
+        margin-left: 0px;
+        position: relative;
+    }
+    
+    .overview-section .section-title {
+        margin-top: 380px;
+        height: 160px;
+        border: 0px;
+        margin-bottom: 30px;
+        width: fit-content;
+        line-height: 0px;
+    }
+    
+    .overview-section .section-title > *{
+        margin-left: 0px;
+    }
+
+    .overview-section .contact-button {
+        margin: 20px;
+        position: relative;
+    }
+}
