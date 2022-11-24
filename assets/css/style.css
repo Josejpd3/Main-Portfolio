@@ -365,3 +365,14 @@ section:not(.overview-section) > .section-title{
         text-align: center;
     }
 }
+
+
+@media screen and (max-width: 540px) {
+    .overview-section {
+    background-size: 400px;
+}
+
+    .overview-section .section-title {
+        margin-top: 300px;
+    }
+}
