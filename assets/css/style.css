@@ -208,6 +208,10 @@ section:not(.overview-section) > .section-title{
     margin: 5px;
 }
 
+.projects-container .card .project-logo img{
+    width: 30px;
+}
+
 
 /* Animations */
 
