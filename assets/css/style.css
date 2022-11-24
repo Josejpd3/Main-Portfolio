@@ -177,6 +177,13 @@ section:not(.overview-section) > .section-title{
 
 .projects-container .card p{
     margin: 10px;
+    margin-bottom: 0px;
+}
+
+.projects-container .card .project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 
