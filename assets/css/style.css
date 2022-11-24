@@ -4,6 +4,10 @@
     --breath-color: #442fca;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 /* Navbar */
 
 .navbar-brand {
