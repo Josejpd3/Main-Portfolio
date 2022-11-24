@@ -153,6 +153,13 @@ section:not(.overview-section) > .section-title{
 
 /* Projects Section */
 
+.projects-container .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .projects-container .card .card-title {
     display: flex;
     justify-content: space-between;
