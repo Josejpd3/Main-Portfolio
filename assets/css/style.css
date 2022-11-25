@@ -369,10 +369,20 @@ section:not(.overview-section) > .section-title{
 
 @media screen and (max-width: 540px) {
     .overview-section {
-    background-size: 400px;
-}
+        top: 60px;
+        background-size: 300px;
+    }
 
-    .overview-section .section-title {
-        margin-top: 300px;
+    .overview-section .overview-container .section-title {
+        margin-top: 250px;
+        height: 90px;
+    }
+
+    .overview-section .section-title h2{
+        font-size: 40px;
+    }
+
+    .overview-section .section-title p{
+        font-size: 20px;
     }
 }
