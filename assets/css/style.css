@@ -293,6 +293,33 @@ section:not(.overview-section) > .section-title{
   }
   
 
+  @keyframes swing {
+    20% {
+      -webkit-transform: rotate3d(15deg);
+      transform: rotate3d(0, 0, 1, 15deg);
+    }
+  
+    40% {
+      -webkit-transform: rotate3d(-10deg);
+      transform: rotate3d(0, 0, 1, -10deg);
+    }
+  
+    60% {
+      -webkit-transform: rotate3d(5deg);
+      transform: rotate3d(0, 0, 1, 5deg);
+    }
+  
+    80% {
+      -webkit-transform: rotate3d(-5deg);
+      transform: rotate3d(0, 0, 1, -5deg);
+    }
+  
+    to {
+      -webkit-transform: rotate3d(0deg);
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+  }
+
 @media screen and (max-width: 1220px){
     .overview-section {
         display: flex;
