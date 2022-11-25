@@ -144,6 +144,10 @@ section:not(.overview-section) > .section-title{
 
 .tech > *:hover {
     border: 4px solid #ddd;
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    animation-name: swing;
 }
 
 .tech > p img {
