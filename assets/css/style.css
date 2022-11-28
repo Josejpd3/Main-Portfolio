@@ -3,7 +3,6 @@
     --text-dark: black;
     --background-color: #111111;
     --secondary-color: #0D7377;
-    --secondary-opacity-color: #0d7477;
     --secondary-highlight-color: #14FFEC;
 }
 
@@ -126,7 +125,7 @@ section:not(.overview-section) > .section-title img {
     height: fit-content;
     padding: 30px;
     border-radius: 30px;
-    background-color: var(--secondary-opacity-color);
+    background-color: var(--secondary-color);
     -webkit-box-shadow: 5px 11.5px 0 2.5px rgba(13, 116, 120, 0.46);
     -moz-box-shadow: 5px 11.5px 0 2.5px rgba(13, 116, 120, 0.46);
     box-shadow: 5px 11.5px 0 2.5px rgba(13, 116, 120, 0.46);
