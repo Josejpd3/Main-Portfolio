@@ -1,5 +1,5 @@
 :root {
-    --text-light: white;
+    --text-light: rgb(216, 213, 213);
     --text-dark: black;
     --background-color: #111111;
     --secondary-color: #0D7377;
@@ -24,7 +24,7 @@ html {
 /* Main */
 
 .main-container{
-    color: white;
+    color: var(--text-light);
     background: var(--background-color);
 }
 
@@ -57,7 +57,7 @@ section:not(.overview-section) > .section-title{
     height: 160px;
     margin-bottom: 30px;
     width: fit-content;
-    border-left: 5px solid white;
+    border-left: 5px solid var(--text-light);
     line-height: 0px;
     -webkit-animation: tracking-in-expand 1.7s cubic-bezier(0.015, 2.010, 0.055, 3.000) both;
     animation: tracking-in-expand 3.7s cubic-bezier(1.215, 1.610, 1.355, 1.000) both;
@@ -81,17 +81,17 @@ section:not(.overview-section) > .section-title{
 .overview-section .contact-button {
     width: fit-content;
     height: fit-content;
-    color: white;
+    color: var(--text-light);
     text-decoration: none;
     font-size: 20px;
     padding: 10px 65px;
-    border: 2px solid white;
+    border: 2px solid var(--text-light);
     border-radius: 30px;
     margin-left: 30px;
 }
 
 .overview-section .contact-button:hover {
-    background-color: white;
+    background-color: var(--text-light);
     color: black;
 }
 
