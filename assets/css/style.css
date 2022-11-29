@@ -180,6 +180,11 @@ section:not(.overview-section) > .section-title img {
 
 /* Projects Section */
 
+.projects-container .card {
+    border-radius: 10px;
+    border-top: 10px solid var(--secondary-color);
+}
+
 .projects-container .card-body {
     display: flex;
     flex-direction: column;
