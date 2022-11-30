@@ -49,7 +49,7 @@ section:not(.overview-section) > .section-title img {
 .overview-section {
     height: 850px;
     background-repeat: no-repeat;
-    background-image: url(/assets/imgs/svg/monitor_illustration_2.svg);
+    background-image: url(../imgs/svg/monitor_illustration_2.svg);
     background-position: right top;
     background-size: 40%;
 }
