@@ -253,6 +253,14 @@ section:not(.overview-section) > .section-title img {
 
 /* Contact Section */
 
+.contact-container {
+    margin-bottom: 50px;
+}
+
+.contact-container a {
+    background-color: var(--secondary-color);
+    border: 0px solid black;
+}
 
 /* Animations */
 
