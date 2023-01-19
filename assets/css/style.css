@@ -169,6 +169,7 @@ section:not(.overview-section) > .section-title img {
 }
 
 .tech > p img {
+    margin-top: 10px;
     width: 45px;
     text-align: center;
 }
