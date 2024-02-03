@@ -188,7 +188,11 @@ section:not(.overview-section) > .section-title img {
 
 .projects-container .card {
     border-radius: 10px;
-    border-top: 10px solid var(--secondary-color);
+    /* border-top: 10px solid var(--highlight-color); */
+}
+
+.projects-container .card img.main {
+    border-radius: 10px 10px 0px 0px;
 }
 
 .projects-container .card-body {
