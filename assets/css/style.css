@@ -382,7 +382,7 @@ section:not(.overview-section) > .section-title img {
         position: relative;
         height: 850px;
         background-repeat: no-repeat;
-        background-image: url(/assets/imgs/svg/monitor_illustration_2.svg);
+        background-image: url(../imgs/svg/monitor_illustration_2.svg);
         background-position: center top;
         background-size: 500px;
     }
