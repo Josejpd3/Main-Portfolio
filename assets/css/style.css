@@ -2,9 +2,14 @@
     --text-light: rgb(216, 213, 213);
     --text-dark: black;
     --background-color: #111111;
-    --secondary-color: #0D7377;
+    --highlight-color: #ffffffd8;
+    --secondary-color: #282929;
+    --secondary-color-shadow: rgba(204, 208, 208, 0.46);
     --secondary-highlight-color: #14FFEC;
 }
+
+/* --secondary-color: #0D7377;
+--secondary-color-shadow: rgba(13, 116, 120, 0.46); */
 
 html {
     overflow-x: hidden;
