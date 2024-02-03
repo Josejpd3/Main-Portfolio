@@ -131,9 +131,9 @@ section:not(.overview-section) > .section-title img {
     padding: 30px;
     border-radius: 30px;
     background-color: var(--secondary-color);
-    -webkit-box-shadow: 5px 11.5px 0 2.5px rgba(13, 116, 120, 0.46);
-    -moz-box-shadow: 5px 11.5px 0 2.5px rgba(13, 116, 120, 0.46);
-    box-shadow: 5px 11.5px 0 2.5px rgba(13, 116, 120, 0.46);
+    -webkit-box-shadow: 5px 11.5px 0 2.5px var(--secondary-color-shadow);
+    -moz-box-shadow: 5px 11.5px 0 2.5px var(--secondary-color-shadow);
+    box-shadow: 5px 11.5px 0 2.5px var(--secondary-color-shadow);
 }
 
 .skills-card {
